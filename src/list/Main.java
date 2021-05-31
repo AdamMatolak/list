@@ -60,6 +60,22 @@ public class Main {
             System.out.print(n + " ");
         });
 
+        System.out.println();
+
+        List<String> names = new ArrayList<>();
+
+        names.add("adam");
+        names.add("eva");
+        names.add("richard");
+        names.add("patrik");
+
+
+        names.sort(Comparator.naturalOrder());
+
+        names.forEach((n) -> {
+            System.out.print(n + " ");
+        });
+
 
     }
     private static int digitSum(int value){
